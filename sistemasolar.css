@@ -1,0 +1,50 @@
+
+body{
+	background-color: black;
+}
+
+.orbita{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	background-color: black;
+	width: 600px;
+	height: 600px;
+	border: 1px solid red;
+	border-radius: 50%;
+	position: absolute;
+	left: 100px;
+	transition: transform 3s ease-in-out;
+
+
+}
+
+.tierra{
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	background-color: blue;
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+
+.sol{
+	text-align: center;
+	line-height: 200px;
+	height: 200px;
+	width: 200px;
+	background-color: yellow;
+	border-radius: 50%;
+	position: absolute;
+	left: 300px;
+	top: 300px;
+}
+
+
+.orbita:hover{
+	transform: rotate(360deg);
+}
