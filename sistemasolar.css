@@ -15,7 +15,13 @@ body{
 	border-radius: 50%;
 	position: absolute;
 	left: 100px;
-	transition: transform 3s ease-in-out;
+	animation-name: rotacion;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: ;
+	
 
 
 }
@@ -46,6 +52,6 @@ body{
 }
 
 
-.orbita:hover{
-	transform: rotate(360deg);
+@keyframes rotacion{
+	100% {transform: rotate(360deg);}
 }
